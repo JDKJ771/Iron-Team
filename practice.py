@@ -6,7 +6,7 @@ Button=machine.Pin(4, machine.Pin.IN)
 
 
 while True:
-  If Button==0:
+  if Button==0:
     IronMan.on()
   else:
     IronMan.off()
