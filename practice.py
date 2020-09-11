@@ -1,12 +1,14 @@
 import machine
-import time
 
-IronMan =machine.Pin(12, machine.Pin.OUT)
-Button=machine.Pin(4, machine.Pin.IN)
+
+IronMan = machine.Pin(12, machine.Pin.OUT)
+Button = machine.Pin(22, machine.Pin.IN)
+
+
 Button.value()
 
 while True:
-  if Button==0:
-    IronMan.on()
+  if Button() == 1:
+        IronMan.off()
   else:
-    IronMan.off()
+        IronMan.on()
