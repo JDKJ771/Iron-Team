@@ -9,9 +9,9 @@ Lead=machine.pin(23,machine.pin.OUT)
 
 Blue=machine.pin(19,machine.pin.IN)
 
-Leaf.value(21)
+Leafvalue==1
 
 while True
-if lead()==23
-Leaf.OFF()
- else:red.on()
+if: lead()==23
+ Leaf.OFF()
+  else:red.on()
