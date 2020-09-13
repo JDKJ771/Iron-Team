@@ -1,20 +1,21 @@
 import machine
 
 
-Leaf=machine.pin(21,machine.pin.OUT)
+Blue=machine.pin(21,machine.pin.OUT)
 
-red=machine.pin(22.machine.pin.IN)
+Leaf=machine.pin(22.machine.pin.IN)
 
-Lead=machine.pin(23,machine.pin.OUT)
+red=machine.pin(23,machine.pin.OUT)
 
-Blue=machine.pin(19,machine.pin.IN)
+lead=machine.pin(19,machine.pin.IN)
 
 Leaf.value()
 lead.value()
 
-while True
-if: lead()==1:
+while True:
+if leaf() ==1:
  Leaf.OFF()
-  else:Leaf.on()
-   if: red()==1
+else:
+ Leaf.on()
+ if red()==1:
      Blue.off()
