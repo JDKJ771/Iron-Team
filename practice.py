@@ -1,14 +1,17 @@
 import machine
 
 
-IronMan = machine.Pin(12, machine.Pin.OUT)
-Button = machine.Pin(22, machine.Pin.IN)
+Leaf=machine.pin(21,machine.pin.OUT)
 
+red=machine.pin(22.machine.pin.IN)
 
-Button.value()
+Lead=machine.pin(23,machine.pin.OUT)
 
-while True:
-  if Button() == 1:
-        IronMan.off()
-  else:
-        IronMan.on()
+Blue=machine.pin(19,machine.pin.IN)
+
+Leaf.value(21)
+
+while True
+if lead()==23
+Leaf.OFF()
+ else:red.on()
